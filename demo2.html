@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo 2: Super Panel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="src/page.css" rel="stylesheet" />
+    <link href="demos/demo2/super-panel.css" rel="stylesheet" />
+    <script src="demos/demo2/super-panel.js"></script>
+</head>
+<body>
+    <header>
+        <a class="logo" href="http://www.menucool.com/">Menucool</a>
+        <span id="top-nav">
+            <a href="demo1.html">DEMO 1</a>
+            <a href="demo2.html" class="active">DEMO 2</a>
+            <a href="demo3.html">DEMO 3</a>
+            <a href="demo4.html">DEMO 4</a>
+        </span>
+        <span data-panel="panel1" class="panel-button"></span>
+    </header>
+        
+    <div style="width:600px;margin:0 auto;padding:80px;background:white;">
+        <h1>Demo 2: Super Panel</h1>
+        <p>&nbsp;</p>
+        <p>Click on the button at the top right corner of the page. The Super Panel has been configured to:</p>
+        <p><code>slideInFrom: "top, 10%",<br />transparentLayer: true</code></p>
+        <p>&nbsp;</p>
+        <p>When the panel is opened, clicking on the semi-transparent layer will also close the panel.</p>
+        <p>&nbsp;</p>
+        <p><a href="http://www.menucool.com/ui/super-panel">Full documentation of the Super Panel</a></p>
+        <p>&nbsp;</p>
+    </div>
+    <div id="panel1">
+        <div style="text-align:center;margin:20px 0 10px;">
+            <img src="src/socials.png" />
+        </div>
+        <div id="vertical-nav">
+            <a href="demo1.html">DEMO 1</a>
+            <a href="demo2.html" class="active">DEMO 2</a>
+            <a href="demo3.html">DEMO 3</a>
+            <a href="demo4.html">DEMO 4</a>
+        </div>
+        <br /><br />
+        <p style="text-align:center;font-size:smaller;font-style:italic;color:#666;">
+            Praesent aliquet erat et luctus placerat.<br />
+            Nulla fermentum lorem sit amet feugiat efficitur.
+        </p>
+    </div>
+</body>
+</html>
